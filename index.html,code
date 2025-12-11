@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Алиханның Туған Күні</title>
+
+<!-- Google Fonts: Montserrat -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+<style>
+  /* Базалық стильдер */
+  body, html {
+    margin: 0; padding: 0;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #0052D4, #4364F7, #6FB1FC); /* Көк градиент фон */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .container {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 20px;
+    padding: 30px 40px;
+    max-width: 600px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 0.3em;
+  }
+
+  p.main-text {
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+  }
+
+  .highlight {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.8em;
+    color: #ffdd57;
+  }
+
+  .phone {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 0.5em;
+  }
+
+  .name {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 1.5em;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 15px 55px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #0052D4;
+    background: #ffdd57;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 8px 25px rgba(255, 221, 87, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(255, 221, 87, 0.9);
+  }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Алиханның Туған Күні</h1>
+    <p class="main-text">12 желтоқсанға дейін <br> 1500-2000 теңге жинап, <br> барлығымыз бірге құттықтап барайық!</p>
+    <div class="phone">+7 705 991 03 83</div>
+    <div class="name">Балбыек А.</div>
+    <a class="btn" href="https://kaspi.kz/pay/example" target="_blank">Kaspi арқылы қолдау</a>
+  </div>
+</body>
+</html>
